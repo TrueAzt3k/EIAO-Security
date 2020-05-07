@@ -1,0 +1,13 @@
+.fondo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to left, #000000, #0059ff), url("../img/fondo_alumno.jpg");
+    box-shadow: inset 0 -300px 200px #000000a0;
+    background-blend-mode: screen;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(80%);
+}

@@ -1,0 +1,28 @@
+.left{
+    animation: left 1.5s ease infinite;
+}
+
+.right{
+    animation: right 1.5s ease infinite;
+}
+
+
+@keyframes left {
+    25%{
+        transform: translateX(-0.3rem);
+        color: var(--hover);
+    }
+    50%{
+        opacity: 0;
+    }
+}
+
+@keyframes right {
+    25%{
+        transform: translateX(0.3rem);
+        color: var(--hover);
+    }
+    50%{
+        opacity: 0;
+    }
+}
